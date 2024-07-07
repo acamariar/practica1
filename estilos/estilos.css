@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body { 
+    margin: auto;}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+header div {
+    margin-top: 42px;
+    margin-left: 123px;
+}
+header nav {
+    width: 358px;
+    height: 29px;
+    margin-top: 48px;
+    margin-right: 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+header nav a {
+    color: #15163D;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: inter;
+}
+#hamburger {
+    position: absolute;
+    top: -30px;
+    right: 40px;
+
+}
+main {
+    margin: auto;
+    margin-left: 123px;
+    margin-right: 122px;
+    
+}
+.div {
+    
+    display: flex;
+    justify-content: space-between;
+}
+#div1 {
+    margin-top: 87px;
+}
+#div1 div button {
+    width: 189px;
+    height: 48px;
+    background-color: #04146C;
+    border-radius: 8px;
+    border: #04146C;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 600px;
+}
+
+
+.contenedor {
+    width: 478px;
+}
+
+.contenedor h2 {
+    font-size: 58px;
+    font-weight: 700px;
+    font-family: inter;
+    color: #15163D;
+    margin-bottom: 42px;
+}
+.contenedor p {
+    font-size: 16px;
+    font-weight: 300px;
+    font-family: inter;
+    color: #15163D;
+    margin-bottom: 42px;
+}
+
+#div2 {
+    margin-top: 103px;
+}
+
+#div3 {
+    margin-top: 90px;
+}
+#testimonios {
+    width: 1193px;
+    margin: auto;
+    text-align: center;
+}
+#testimonios h2 {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: inter;
+    color: 15163D;
+    margin-bottom: 29px;
+}
+#clientes {
+    font-size: 58px;
+    font-family: inter;
+    font-weight: 700px;
+    color: #15163D;
+    margin-bottom: 82px;
+}
+#personas {
+    display: flex;
+    justify-content: space-between;
+}
+.testimonios {
+    width: 355px;
+    height: 334px;
+    background-color: #EFF2FF ;
+    border-radius: 20px;
+    padding: 23px 0 23px 0;
+}
+.testimonios img {
+    border-radius: 100px;
+    margin-bottom: 15px;
+
+}
+.testimonios h3 {
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: inter;
+    color: #15163D;
+    margin-bottom: 11px;
+}
+.testimonios p{
+    font-size: 16px;
+    font-weight: 300px;
+    font-family: inter;
+    color: #15163D;
+    margin: 0 33.51px 0 33.51px;
+}
+#contacto {
+    margin-top: 104px;
+    display: flex;
+    
+}
+#contacto div img {
+    margin-right: 123px;
+    margin-bottom: 93px;
+
+}
+#contacto button {
+    width: 189px;
+    height: 48px;
+    background-color: #04146C;
+    border-radius: 8px;
+    border: #04146C;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 600px;
+}
+footer {
+    background-color: #15163D;
+    height: 443px;
+}
+@media screen and (max-width: 428px) {
+    body {
+        margin: auto;
+    }
+    
+    header div{
+        margin-left: 40px;
+    }
+    header div a img {
+        width: 31px;
+    }
+
+    header nav {
+        position: absolute;
+        z-index: 1;
+        flex-direction: column;
+        align-items: start;
+        padding: 14px 17px 32px 17px;
+        margin: 0;
+        width: 100%;
+        height: 141px;
+        background-color: #FFFFFF;
+        transform: translateY(-141px);
+        transition: 0.5s;
+        
+    }
+    #hamburger {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+    transition: 0.5s;}
+
+    main {
+        width: 368px;
+        margin: 172px 30px 0 30px;
+        
+    }
+    .div {
+        flex-direction: column;
+
+    }
+    #div1 {
+        margin: 0;
+    }
+    .contenedor {
+        
+        margin-bottom: 66px ;
+    }
+    .contenedor h2{
+        font-size: 40px;
+        text-align: center;
+        width: 380px;
+}
+    .img { 
+        width: 367px;
+    }
+    #div2 {
+        flex-direction: column-reverse;
+    }
+    .contenedor p {
+        width: 370px;
+        font-size: 16px;
+        text-align: center;
+    }
+    #div1 div button {
+        height: 35px;
+        margin left: 114px;
+      
+    }
+    #testimonios {
+        width: 368px;
+        
+    }
+    #clientes {
+        font-size: 40px;
+        margin-bottom: 42px;
+    }
+    #personas {
+        flex-direction: column;
+    }
+    .testimonios {
+        width: 341px;
+        height: 334px;
+        margin: 42px auto;
+    }
+    #contacto {
+        display: block;
+    }
+    .contenedor a {
+        display: inline-block;
+        margin-top: 40px;
+        margin-left: 190px;
+    }
+    .arrow {
+       
+        transform: rotate(90deg);
+        
+}
